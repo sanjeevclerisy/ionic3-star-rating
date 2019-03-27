@@ -1,4 +1,4 @@
-import { Events } from 'ionic-angular';
+import { Events } from '@ionic/angular';
 export declare class StarRating {
     private events;
     rating: number;

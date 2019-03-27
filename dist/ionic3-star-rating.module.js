@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { StarRating } from './components/ionic3-star-rating-component';
-import { IonicModule } from 'ionic-angular';
+import { IonicModule } from '@ionic/angular';
+import { CommonModule } from '@angular/common';
 var StarRatingModule = (function () {
     function StarRatingModule() {
     }
@@ -12,7 +13,8 @@ var StarRatingModule = (function () {
     StarRatingModule.decorators = [
         { type: NgModule, args: [{
                     imports: [
-                        IonicModule
+                        IonicModule,
+                        CommonModule
                     ],
                     declarations: [
                         StarRating
